@@ -1,4 +1,7 @@
-# RetailPulse Analytics Pipeline
+# Project 1: RetailPulse Analytics Pipeline
+### *No-Code / Low-Code | GCP Console | End-to-End*
+ 
+---
 
 ## Overview
 
