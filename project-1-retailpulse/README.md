@@ -59,6 +59,14 @@ A retail company receives daily CSV exports and requires automated reporting das
 <img width="1229" height="823" alt="image" src="https://github.com/user-attachments/assets/5a0367a4-7dfb-4a36-990b-eeba861038c5" />
 
 
+
+-----
+
+
+## BigQuery
+
+![BigQuery](screenshots/bigquery_tables.png)
+
 ---
 
 ## 🏗️ Architecture
