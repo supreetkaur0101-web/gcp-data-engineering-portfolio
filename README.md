@@ -76,6 +76,30 @@ gcp-data-engineering-portfolio/
 | **IAM** | Access control and permissions | Both projects |
 
 ---
+## 🎯 Skills Demonstrated
+
+- Cloud Data Engineering
+- ETL / ELT Pipelines
+- BigQuery SQL
+- Data Warehouse Design
+- Dashboard Development
+- Data Automation
+- Cloud Architecture
+- Python Data Engineering
+- Batch Processing
+- Scheduled Workflows
+
+---
+
+## 📊 Portfolio Highlights
+
+- Built production-style GCP pipelines
+- Processed and transformed large datasets
+- Created business KPI dashboards
+- Implemented automated ingestion workflows
+- Structured cloud-native analytics architecture
+
+---
 
 
 ## 📬 Contact
