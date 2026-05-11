@@ -1,0 +1,7 @@
+-- BigQuery raw tables created from CSV ingestion
+-- Tables:
+-- raw_orders
+-- raw_order_items
+-- raw_products
+-- raw_payments
+-- raw_customers
