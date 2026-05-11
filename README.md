@@ -4,6 +4,13 @@ Production-style end-to-end data engineering projects built on Google Cloud Plat
 
 ---
 
+
+<img width="1229" height="823" alt="image" src="https://github.com/user-attachments/assets/5a0367a4-7dfb-4a36-990b-eeba861038c5" />
+
+
+
+---
+
 ## 👋 About This Portfolio
 
 Hi! I'm a data engineer passionate about building scalable, cloud-native data pipelines on GCP.
