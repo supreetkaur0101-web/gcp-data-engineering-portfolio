@@ -1,20 +1,77 @@
-# ⚡ Project 2: StreamFlow ETL Engine
+# Project 2: StreamFlow ETL Engine  
 ### *Python + CLI | GCP SDK | End-to-End from Scratch*
- 
+
 ---
- 
-## 📌 Project Summary Card
- 
-| Field | Detail |
-|---|---|
-| **Business Problem** | A retail startup receives hourly order data and needs a fully automated ETL pipeline with monitoring |
-| **Your Role** | Data Engineer — design, code, test, and deploy the full pipeline from scratch |
-| **Approach** | Python scripts + GCP SDK + CLI (bq, gsutil, gcloud commands) |
-| **Dataset** | Custom-generated realistic order data (50,000+ records) |
-| **Pipeline** | Python Generator → GCS → BigQuery → SQL Transform → Analytics |
-| **Duration** | ~4–6 hours to build |
-| **Cost** | ~$0 (Free tier covers everything) |
- 
+
+## Overview
+
+Production-style ETL pipeline built on Google Cloud Platform using:
+
+- Python for data generation
+- GCS (Cloud Storage) for file staging
+- BigQuery for data warehousing
+- SQL transformations
+- Automated orchestration using CLI tools and Makefile
+
+This project simulates a retail startup receiving hourly order data (50,000+ records) and automates the ETL process from raw data generation to analytics.
+
+---
+
+## Architecture
+
+Python Data Generator → GCS → BigQuery Raw Table → SQL Transformations → Analytics Tables → Dashboards
+
+---
+
+## Technologies Used
+
+- Google Cloud Platform (GCP)
+- Python (CLI scripts)
+- GCS (Cloud Storage)
+- BigQuery
+- SQL
+- GCP SDK (Python)
+- Makefile for automation
+
+---
+
+## Business Problem
+
+QuickCart, a fast-growing e-commerce startup, needs a fully automated ETL pipeline to process hourly order data and produce real-time revenue analytics.
+
+---
+
+## Features
+
+- Realistic order data generation
+- Automated GCS file upload
+- BigQuery loading with schema validation
+- SQL transformations from raw to analytics layer
+- Orchestration via a Makefile (single command run)
+- Data quality checks and audit logging
+
+---
+
+## Dataset
+
+Custom-generated synthetic order data (50,000+ records), simulating real e-commerce transactions.
+
+---
+
+## Dashboards
+
+Ready-to-use analytics tables can be connected to Looker Studio, enabling real-time revenue and order analysis.
+
+---
+
+## BigQuery
+
+Sample queries transform raw data into staging and analytics tables, enabling flexible and dynamic reporting.
+
+---
+
+
+
 ---
  
 ## 🏗️ Architecture
@@ -58,16 +115,27 @@
 ```
  
 ---
+
+## Business Requirements
+
+At QuickCart, the data team needs:
+
+1. **Hourly Ingestion** — automating the pipeline to process orders every hour.
+2. **End-to-End Automation** — no manual steps; everything runs from scripts.
+3. **Data Quality** — reject incomplete or incorrect data before analytics.
+4. **Real-Time Revenue Insights** — instant visibility into hourly sales.
+5. **Audit Trail** — log each pipeline run, ensuring full traceability.
+
+---
+
+## Outcomes
+
+- Built a fully automated ETL pipeline from scratch.
+- Generated 50,000+ realistic order records.
+- Loaded, transformed, and prepared data for analytics.
+- Created a scalable architecture for hourly e-commerce data processing.
+
  
-## 🎯 Business Requirements
- 
-You're working at **QuickCart** — a fast-growing e-commerce startup. The data team needs:
- 
-1. **Hourly data ingestion** — orders stream in every hour as CSV files
-2. **Automated ETL** — no manual steps, everything runs via code
-3. **Data quality gates** — reject bad data before it reaches analytics
-4. **Revenue analytics** — real-time sales metrics for the business team
-5. **Audit trail** — log every pipeline run with success/failure status
 ---
  
 ## 📁 Project Structure
