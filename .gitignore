@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+
+# Mac
+.DS_Store
+
+# Environment variables
+.env
+
+# GCP credentials
+*.json
+
+# Data files
+data/*.csv
+
+# Pytest
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
